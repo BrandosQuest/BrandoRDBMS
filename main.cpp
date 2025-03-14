@@ -1,25 +1,62 @@
 #include <iostream>
+#include <string>
+#include <Car.h>
+using namespace std;
 
-// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+void printArray(int arr[])
+{
+    int size=sizeof(arr);
+    cout<<"Array size: "<<size<<endl;
+    for (int i = 0; i < sizeof(arr); i++)
+    {
+        std::cout << arr[i] << " ";
+        arr[i]++;
+    }
+    cout << endl;
+}
+class MyClass
+{
+    public:
+    int a;
+};
+
 int main() {
-    // TIP Press <shortcut actionId="RenameElement"/> when your caret is at the
-    // <b>lang</b> variable name to see how CLion can help you rename it.
+    MyClass obj;
+    obj.a = 10;
+    cout<<obj.a<<endl;
+
+    int dim=100;
     auto lang = "C++";
     std::cout << "Hello and welcome to " << lang << "!\n";
 
-    for (int i = 1; i <= 5; i++) {
-        // TIP Press <shortcut actionId="Debug"/> to start debugging your code.
-        // We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/>
-        // breakpoint for you, but you can always add more by pressing
-        // <shortcut actionId="ToggleLineBreakpoint"/>.
-        std::cout << "i = " << i << std::endl;
+    int arr[dim];
+    for (int i = 0; i < dim; i++)
+    {
+        arr[i] = i + 1;
     }
+    unsigned long long size=sizeof(arr);
+    cout<<"Array size: "<<size<<endl;
+    printArray(arr);
+    for (int i = 0; i < dim; i++)
+    {
+        std::cout << arr[i] << " ";
+    }
+
+    Car myCar("Tesla", 120);
+    myCar.accelerate(30);
+    myCar.display();
 
     return 0;
 }
 
-// TIP See CLion help at <a
-// href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>.
-//  Also, you can try interactive lessons for CLion by selecting
-//  'Help | Learn IDE Features' from the main menu.
+
+/*/MyProject
+│── /src         → Source files (.cpp)
+│── /include     → Header files (.h or .hpp)
+│── /build       → Compiled binaries (optional)
+│── /lib         → External libraries (if needed)
+│── /tests       → Unit tests
+│── main.cpp     → Entry point of the program
+│── CMakeLists.txt (if using CMake) / Makefile
+│── README.md
+*/

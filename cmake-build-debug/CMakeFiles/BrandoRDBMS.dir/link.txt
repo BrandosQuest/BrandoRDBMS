@@ -1,0 +1,3 @@
+C:\Users\Brando\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\BrandoRDBMS.dir/objects.a
+C:\Users\Brando\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\BrandoRDBMS.dir/objects.a @CMakeFiles\BrandoRDBMS.dir\objects1.rsp
+C:\Users\Brando\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\BrandoRDBMS.dir/objects.a -Wl,--no-whole-archive -o BrandoRDBMS.exe -Wl,--out-implib,libBrandoRDBMS.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BrandoRDBMS.dir\linkLibs.rsp

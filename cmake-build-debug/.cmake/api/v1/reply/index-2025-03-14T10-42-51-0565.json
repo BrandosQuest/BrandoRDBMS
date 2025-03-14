@@ -4,14 +4,14 @@
 		"generator" : 
 		{
 			"multiConfig" : false,
-			"name" : "Ninja"
+			"name" : "MinGW Makefiles"
 		},
 		"paths" : 
 		{
-			"cmake" : "C:/Users/brand/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe",
-			"cpack" : "C:/Users/brand/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cpack.exe",
-			"ctest" : "C:/Users/brand/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/ctest.exe",
-			"root" : "C:/Users/brand/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30"
+			"cmake" : "C:/Users/Brando/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe",
+			"cpack" : "C:/Users/Brando/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cpack.exe",
+			"ctest" : "C:/Users/Brando/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/ctest.exe",
+			"root" : "C:/Users/Brando/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30"
 		},
 		"version" : 
 		{
@@ -26,7 +26,7 @@
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-9ff344a610ffd6ef991d.json",
+			"jsonFile" : "codemodel-v2-e39e7d94418ef1c057fd.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
@@ -35,7 +35,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-83961984e38601ae611b.json",
+			"jsonFile" : "cache-v2-e75ddf1505fff5b52a26.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-bd208c1790e6332cef2b.json",
+			"jsonFile" : "cmakeFiles-v1-367f5b62b72e9d9a57a6.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -53,7 +53,7 @@
 			}
 		},
 		{
-			"jsonFile" : "toolchains-v1-cf389db7f259f4c21d07.json",
+			"jsonFile" : "toolchains-v1-d2e7335e53d2adf84aa0.json",
 			"kind" : "toolchains",
 			"version" : 
 			{
@@ -66,7 +66,7 @@
 	{
 		"cache-v2" : 
 		{
-			"jsonFile" : "cache-v2-83961984e38601ae611b.json",
+			"jsonFile" : "cache-v2-e75ddf1505fff5b52a26.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -76,7 +76,7 @@
 		},
 		"cmakeFiles-v1" : 
 		{
-			"jsonFile" : "cmakeFiles-v1-bd208c1790e6332cef2b.json",
+			"jsonFile" : "cmakeFiles-v1-367f5b62b72e9d9a57a6.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -86,7 +86,7 @@
 		},
 		"codemodel-v2" : 
 		{
-			"jsonFile" : "codemodel-v2-9ff344a610ffd6ef991d.json",
+			"jsonFile" : "codemodel-v2-e39e7d94418ef1c057fd.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
@@ -96,7 +96,7 @@
 		},
 		"toolchains-v1" : 
 		{
-			"jsonFile" : "toolchains-v1-cf389db7f259f4c21d07.json",
+			"jsonFile" : "toolchains-v1-d2e7335e53d2adf84aa0.json",
 			"kind" : "toolchains",
 			"version" : 
 			{
