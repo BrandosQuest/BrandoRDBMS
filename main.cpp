@@ -1,27 +1,30 @@
 #include <iostream>
 #include <string>
 #include <Car.h>
+#include <Table.h>
 using namespace std;
 
-void printArray(int arr[])
-{
-    int size=sizeof(arr);
-    cout<<"Array size: "<<size<<endl;
-    for (int i = 0; i < sizeof(arr); i++)
-    {
-        std::cout << arr[i] << " ";
-        arr[i]++;
-    }
-    cout << endl;
-}
-class MyClass
-{
-    public:
-    int a;
-};
+// void printArray(int arr[])
+// {
+//     int size=sizeof(arr);
+//     cout<<"Array size: "<<size<<endl;
+//     for (int i = 0; i < sizeof(arr); i++)
+//     {
+//         std::cout << arr[i] << " ";
+//         arr[i]++;
+//     }
+//     cout << endl;
+// }
+// class MyClass
+// {
+//     public:
+//     int a;
+// };
 
 int main() {
-    MyClass obj;
+    Table t("Nuova tabella");
+    cout << t.name << endl;
+    /*MyClass obj;
     obj.a = 10;
     cout<<obj.a<<endl;
 
@@ -45,6 +48,7 @@ int main() {
     Car myCar("Tesla", 120);
     myCar.accelerate(30);
     myCar.display();
+    */
 
     return 0;
 }

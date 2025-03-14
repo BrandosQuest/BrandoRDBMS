@@ -176,6 +176,30 @@ src/Car.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrandoRDBMS.dir\build.make CMakeFiles/BrandoRDBMS.dir/src/Car.cpp.s
 .PHONY : src/Car.cpp.s
 
+src/Table.obj: src/Table.cpp.obj
+.PHONY : src/Table.obj
+
+# target to build an object file
+src/Table.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrandoRDBMS.dir\build.make CMakeFiles/BrandoRDBMS.dir/src/Table.cpp.obj
+.PHONY : src/Table.cpp.obj
+
+src/Table.i: src/Table.cpp.i
+.PHONY : src/Table.i
+
+# target to preprocess a source file
+src/Table.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrandoRDBMS.dir\build.make CMakeFiles/BrandoRDBMS.dir/src/Table.cpp.i
+.PHONY : src/Table.cpp.i
+
+src/Table.s: src/Table.cpp.s
+.PHONY : src/Table.s
+
+# target to generate assembly for a file
+src/Table.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrandoRDBMS.dir\build.make CMakeFiles/BrandoRDBMS.dir/src/Table.cpp.s
+.PHONY : src/Table.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +215,9 @@ help:
 	@echo ... src/Car.obj
 	@echo ... src/Car.i
 	@echo ... src/Car.s
+	@echo ... src/Table.obj
+	@echo ... src/Table.i
+	@echo ... src/Table.s
 .PHONY : help
 
 

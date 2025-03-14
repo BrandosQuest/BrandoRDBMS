@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/BrandoRDBMS.dir/main.cpp.obj.d"
   "CMakeFiles/BrandoRDBMS.dir/src/Car.cpp.obj"
   "CMakeFiles/BrandoRDBMS.dir/src/Car.cpp.obj.d"
+  "CMakeFiles/BrandoRDBMS.dir/src/Table.cpp.obj"
+  "CMakeFiles/BrandoRDBMS.dir/src/Table.cpp.obj.d"
   "libBrandoRDBMS.dll.a"
 )
 
