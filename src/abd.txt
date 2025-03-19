@@ -1,0 +1,101 @@
+===============================================
+           IDEA VIM SHORTCUT GUIDE
+===============================================
+
+1. NAVIGATING BETWEEN FILES
+---------------------------
+:e filename        -> Open a file named 'filename'.
+gf                 -> Open the file under the cursor.
+<C-^>              -> Switch between the last two files edited.
+<C-o> / <C-i>      -> Jump back (<C-o>) or forward (<C-i>) in navigation history.
+:bnext (:bn)       -> Switch to the next open buffer (file).
+:bprev (:bp)       -> Switch to the previous buffer.
+:Buffers           -> List open buffers (requires FZF or CtrlP plugin).
+
+JetBrains Shortcuts:
+--------------------
+Shift+Shift        -> Search Everywhere (open files, classes, actions).
+Ctrl+E            -> Show recent files.
+Ctrl+Tab          -> Switch between open files.
+
+------------------------------------------------------------
+
+2. NAVIGATING WITHIN FILES
+---------------------------
+%                  -> Jump to matching bracket ( {}, (), [] ).
+[[ / ]]            -> Jump to the previous / next function.
+gg / G             -> Move to the top (gg) or bottom (G) of the file.
+H / M / L          -> Move to the top (H), middle (M), or bottom (L) of the screen.
+zz                 -> Center the current line in the window.
+* / #              -> Search for the word under the cursor (* = forward, # = backward).
+
+JetBrains Shortcuts:
+--------------------
+Ctrl+G            -> Go to a specific line.
+Ctrl+F12          -> Show file structure (functions, classes).
+Alt+Up / Alt+Down -> Move between methods.
+
+------------------------------------------------------------
+
+3. MANAGING TABS & WINDOWS
+---------------------------
+:tabnew filename   -> Open a file in a new tab.
+gt / gT            -> Move to the next (gt) or previous (gT) tab.
+:q                 -> Close the current tab.
+<C-w> h/j/k/l      -> Move between split windows (h = left, j = down, k = up, l = right).
+
+JetBrains Shortcuts:
+--------------------
+Ctrl+Shift+[ / ]  -> Move between editor tabs.
+Alt+Left / Right  -> Move back / forward in navigation.
+Ctrl+W            -> Close the current file/tab.
+Shift+F4          -> Open file in a new window.
+
+Added Shortcut: Close a Specific File
+-------------------------------------
+:bd               -> Close the current buffer (file) without closing the window.
+Ctrl+F4 (Win/Linux) or Cmd+W (Mac) -> Close the specific file.
+
+------------------------------------------------------------
+
+4. SEARCHING & REFACTORING
+---------------------------
+/pattern           -> Search forward for 'pattern'.
+n / N             -> Repeat last search (n = forward, N = backward).
+:%s/old/new/g     -> Replace all occurrences of 'old' with 'new'.
+:noh              -> Remove search highlighting.
+
+JetBrains Shortcuts:
+--------------------
+Ctrl+R            -> Replace text.
+Shift+F6         -> Rename variables, functions, classes.
+Ctrl+Shift+R     -> Find & replace in the entire project.
+Ctrl+Shift+F     -> Search in the whole project.
+
+------------------------------------------------------------
+
+5. RUNNING & DEBUGGING
+-----------------------
+:! command        -> Run a shell command.
+:make            -> Run 'make' (if configured).
+
+JetBrains Shortcuts:
+--------------------
+Shift+F10        -> Run project.
+Shift+F9         -> Start debugging.
+Ctrl+F5          -> Rerun without debugging.
+
+------------------------------------------------------------
+
+6. GIT INTEGRATION
+-------------------
+:Git             -> Run a Git command (requires vim-fugitive plugin).
+:Gdiffsplit      -> Compare the current file with the last committed version.
+
+JetBrains Shortcuts:
+--------------------
+Ctrl+K          -> Commit changes.
+Ctrl+Shift+K    -> Push commits.
+Alt+~           -> View Git history for the file.
+
+------------------------------------------------------------
