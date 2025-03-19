@@ -80,4 +80,4 @@
 ### **JetBrains Shortcuts**
 - `Ctrl+K` → **Commits changes**.
 - `Ctrl+Shift+K` → **Pushes commits**.
-- `Alt+~` → Opens the **Git history** for the file.
+- `Alt+)` → Opens the **Git history** for the file.

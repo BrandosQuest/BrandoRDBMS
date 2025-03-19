@@ -96,6 +96,7 @@ JetBrains Shortcuts:
 --------------------
 Ctrl+K          -> Commit changes.
 Ctrl+Shift+K    -> Push commits.
-Alt+~           -> View Git history for the file.
+Alt+)           -> View Git history for the file.
 
 ------------------------------------------------------------
+
