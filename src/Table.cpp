@@ -8,9 +8,27 @@
 #include <utility>
 
 // Constructor Implementation
-Table::Table(std::string name) : name(std::move(name))
+Table::Table(std::string name)
 {
-    a=10;
-    std::cout << a << std::endl;
+    this->name = name;
+}
+
+void Table::setAttribute(std::string attribute)
+{
+    attributes.push_back(attribute);
+}
+
+std::string Table::getTableNameAndHeaders()
+{
+    std::string nameAndHeaders = name;
+
+    // Create a vector iterator called it
+    std::vector<std::string>::iterator it;
+
+    // Loop through the vector with the iterator
+    for (it = attributes.begin(); it != attributes.end(); ++it) {
+        nameAndHeaders = nameAndHeaders + " " + *it;
+    }
+    return nameAndHeaders;
 }
 //Car::Car(std::string brand, int speed) : brand(brand), speed(speed) {}

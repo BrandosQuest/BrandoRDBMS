@@ -23,7 +23,11 @@ using namespace std;
 
 int main() {
     Table t("Nuova tabella");
-    cout << t.name << endl;
+    cout << t.getTableNameAndHeaders() << endl;
+    t.setAttribute("ciaoooo");
+    t.setAttribute("ciaooooo");
+    t.setAttribute("ciaooooo");
+    std::cout << t.getTableNameAndHeaders() << std::endl;
     /*MyClass obj;
     obj.a = 10;
     cout<<obj.a<<endl;

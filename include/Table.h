@@ -9,15 +9,18 @@
 
 class Table {
   private:
-    //std::vector<Attribute> attributes{};
-    int a =0;
-
-  public:
+    std::vector<std::string> attributes{};
     std::string name;
 
+  public:
+
+
     // Constructor
-    Table(std::string name);
-    //Car(std::string brand, int speed);
+    explicit Table(std::string name);
+
+    void setAttribute(std::string attribute);
+
+    std::string getTableNameAndHeaders();
 
 };
 #endif //TABLEORRELATION_H
